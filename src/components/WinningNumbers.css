@@ -1,0 +1,25 @@
+.winning-numbers {
+    font-size: 14px;
+    color: #012406;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.winning-numbers .item {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #d9deda;
+    border-radius: 50%;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    width: 35px;
+    height: 35px;
+}
+
+.winning-numbers .item--euro {
+    border: 1px solid #ca7f26;
+}
+
