@@ -1,0 +1,112 @@
+{
+	"last": {
+		"nr": 342,
+		"currency": "EUR",
+		"date": {
+			"full": "Die Lottozahlen vom Freitag, den 05.10.2018",
+			"day": 5,
+			"month": 10,
+			"year": 2018,
+			"hour": 21,
+			"minute": 0,
+			"dayOfWeek": "Freitag"
+		},
+		"closingDate": "05.10.2018, 19:00",
+		"lateClosingDate": "05.10.2018, 20:15",
+		"drawingDate": "05.10.2018, 21:00",
+		"numbers": [12, 15, 32, 44, 49],
+		"euroNumbers": [5, 7],
+		"jackpot": "49",
+		"marketingJackpot": "49",
+		"specialMarketingJackpot": "90",
+		"climbedSince": 5,
+		"Winners": 938712,
+		"odds": {
+			"rank0": {
+				"winners": 0,
+				"specialPrize": 0,
+				"prize": 0
+			},
+			"rank1": {
+				"winners": 0,
+				"specialPrize": 0,
+				"prize": 4900000000
+			},
+			"rank2": {
+				"winners": 4,
+				"specialPrize": 0,
+				"prize": 49331250
+			},
+			"rank3": {
+				"winners": 8,
+				"specialPrize": 0,
+				"prize": 8705510
+			},
+			"rank8": {
+				"winners": 40871,
+				"specialPrize": 0,
+				"prize": 1760
+			},
+			"rank9": {
+				"winners": 40660,
+				"specialPrize": 0,
+				"prize": 1710
+			},
+			"rank10": {
+				"winners": 64815,
+				"specialPrize": 0,
+				"prize": 1540
+			},
+			"rank4": {
+				"winners": 88,
+				"specialPrize": 0,
+				"prize": 263800
+			},
+			"rank5": {
+				"winners": 893,
+				"specialPrize": 0,
+				"prize": 23390
+			},
+			"rank6": {
+				"winners": 1493,
+				"specialPrize": 0,
+				"prize": 10880
+			},
+			"rank11": {
+				"winners": 216385,
+				"specialPrize": 0,
+				"prize": 830
+			},
+			"rank7": {
+				"winners": 2838,
+				"specialPrize": 0,
+				"prize": 4900
+			},
+			"rank12": {
+				"winners": 570657,
+				"specialPrize": 0,
+				"prize": 770
+			}
+		}
+	},
+	"next": {
+		"nr": 343,
+		"currency": "EUR",
+		"date": {
+			"full": "Die Lottozahlen vom Freitag, den 12.10.2018",
+			"day": 12,
+			"month": 10,
+			"year": 2018,
+			"hour": 21,
+			"minute": 0,
+			"dayOfWeek": "Freitag"
+		},
+		"closingDate": "12.10.2018, 19:00",
+		"lateClosingDate": "12.10.2018, 20:15",
+		"drawingDate": "12.10.2018, 21:00",
+		"jackpot": "61",
+		"marketingJackpot": "61",
+		"specialMarketingJackpot": "61",
+		"climbedSince": 6
+	}
+}
