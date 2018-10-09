@@ -1,5 +1,6 @@
 import React from 'react';
 import tiers from './tiers.json';
+import './OddsTable.css';
 
 function sortRanks(a, b) {
     // Extract the number of the rank
@@ -16,27 +17,32 @@ function sortRanks(a, b) {
     return 0;
 }
 
+function formatCurrency(currency){
+    return currency.toLocaleString('en-US', {currency: 'EUR', style: 'currency'});
+}
+
+function createOdd(odd) {
+    const { tier, match } = tiers[odd[0]];
+    const { prize, winners } = odd[1];
+    return (
+        <tr key={odd[0]}>
+            <td className="odd-column odd-column--small">{tier}</td>
+            <td className="odd-column odd-column--big">{match}</td>
+            <td className="odd-column odd-column--big">{winners.toLocaleString()}&times;</td>
+            <td className="odd-column odd-column--big odd-column--no-wrap">{formatCurrency(prize / 100)}</td>
+        </tr>
+    )
+}
+
 export default ({odds}) => {
     const oddsList = Object.entries(odds)
         .sort(sortRanks)
         .filter(odd => odd[0] !== 'rank0')
-        .map((odd) => {
-            console.log(odd);
-            const { tier, match } = tiers[odd[0]];
-            const { prize, winners } = odd[1];
-            return (
-                <tr key={odd[0]}>
-                    <td>{tier}</td>
-                    <td>{match}</td>
-                    <td>{winners}&times;</td>
-                    <td>{prize / 100}</td>
-                </tr>
-            )
-        });
+        .map(createOdd);
 
     return (
-        <table>
-            <thead>
+        <table className="odds-table">
+            <thead className="head">
                 <tr>
                     <th>Tier</th>
                     <th>Match</th>
