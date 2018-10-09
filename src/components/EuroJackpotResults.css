@@ -1,0 +1,13 @@
+.results-odds {
+    display: flex;
+    flex-direction: row;
+}
+
+.results-odds .results-odds-table {
+    flex: 1 1 100%;
+}
+
+.results-odds .results-odds-pods {
+    flex: 0 0 auto;
+    max-width: 300px;
+}

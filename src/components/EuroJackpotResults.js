@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import LatestResultsTitle from './LatestResultsTitle';
+import LatestResultsHeader from './LatestResultsHeader';
 import WinningNumbers from './WinningNumbers';
 import OddsTable from './OddsTable';
+import './EuroJackpotResults.css'
 import results from '../results.json';
 
 class EuroJackpotResults extends Component {
@@ -20,12 +21,18 @@ class EuroJackpotResults extends Component {
     render() {
         if (this.state.results) {
             return (
-                <div>
-                    <LatestResultsTitle lastDate={this.state.results.last.date} />
+                <div className="results">
+                    <LatestResultsHeader lastDate={this.state.results.last.date} />
                     <WinningNumbers numbers={this.state.results.last.numbers} 
                                     euroNumbers={this.state.results.last.euroNumbers} />
-                    <div>
-                        <OddsTable odds={this.state.results.last.odds} />
+                    <div className="results-odds">
+                        <div className="results-odds-table">
+                            <OddsTable odds={this.state.results.last.odds} />
+                        </div>
+                        <div className="results-odds-pods">
+
+                        </div>
+                        
                     </div>
                 </div>
             );
