@@ -5,7 +5,7 @@ import WinningNumbers from './WinningNumbers';
 import OddsTable from './OddsTable';
 import Pod from './Pod';
 import './EuroJackpotResults.css'
-import results from '../results.json';
+//import results from '../results.json';
 
 class EuroJackpotResults extends Component {
     constructor(props) {
@@ -16,9 +16,12 @@ class EuroJackpotResults extends Component {
         };
     }
     componentDidMount() {
-        this.setState({
-            results
-        })
+        fetch('https://media.lottoland.com/api/drawings/euroJackpot')
+            .then((res) => res.json())
+            .then((results) => {
+                this.setState({ results });
+            }).catch(err => {console.log(err)});
+
     }
     render() {
         if (this.state.results) {
