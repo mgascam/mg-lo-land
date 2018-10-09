@@ -1,7 +1,7 @@
 {
   "rank1": {
     "tier": "I",
-    "match": "5 Numbers + 1 Euronumber"
+    "match": "5 Numbers + 2 Euronumbers"
   },
   "rank2": {
     "tier": "II",
@@ -9,42 +9,42 @@
   },
   "rank3": {
     "tier": "III",
-    "match": "5 Numbers + 1 Euronumber"
+    "match": "5 Numbers + 0 Euronumbers"
   },
   "rank4": {
     "tier": "IV",
-    "match": "5 Numbers + 1 Euronumber"
+    "match": "4 Numbers + 2 Euronumbers"
   },
   "rank5": {
     "tier": "V",
-    "match": "5 Numbers + 1 Euronumber"
+    "match": "4 Numbers + 1 Euronumber"
   },
   "rank6": {
     "tier": "VI",
-    "match": "5 Numbers + 1 Euronumber"
+    "match": "4 Numbers + 0 Euronumber"
   },
   "rank7": {
     "tier": "VII",
-    "match": "5 Numbers + 1 Euronumber"
+    "match": "3 Numbers + 2 Euronumbers"
   },
   "rank8": {
     "tier": "VIII",
-    "match": "5 Numbers + 1 Euronumber"
+    "match": "2 Numbers + 2 Euronumbers"
   },
   "rank9": {
     "tier": "IX",
-    "match": "5 Numbers + 1 Euronumber"
+    "match": "3 Numbers + 1 Euronumber"
   },
   "rank10": {
     "tier": "X",
-    "match": "5 Numbers + 1 Euronumber"
+    "match": "3 Numbers + 0 Euronumbers"
   },
   "rank11": {
     "tier": "XI",
-    "match": "5 Numbers + 1 Euronumber"
+    "match": "1 Number + 2 Euronumbers"
   },
   "rank12": {
     "tier": "XII",
-    "match": "5 Numbers + 1 Euronumber"
+    "match": "2 Numbers + 1 Euronumber"
   }
 }

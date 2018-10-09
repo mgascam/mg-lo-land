@@ -21,10 +21,15 @@
     vertical-align: middle;
 }
 
+.odds-table tr {
+    border: 1px solid #d9deda;
+}
+
 .odds-table .odd-column {
     display: table-cell;
     line-height: 1;
     padding: 14px 21px;
+
 }
 
 .odds-table .odd-column--small {
