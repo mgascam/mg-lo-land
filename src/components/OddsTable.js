@@ -1,5 +1,5 @@
 import React from 'react';
-import tiers from './tiers.json';
+import tiers from '../tiers.json';
 import './OddsTable.css';
 
 function sortRanks(a, b) {
