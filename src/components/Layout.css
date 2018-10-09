@@ -1,4 +1,6 @@
 .inner {
     max-width: 900px;
+    min-width: 292px;
     margin: 0 auto;
+    padding: 0;
 }
