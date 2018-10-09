@@ -1,3 +1,12 @@
+.latest-results-header {
+    padding: 14px 0;
+    font-size: 17px;
+    line-height: 26px;
+    font-family: Roboto;
+    font-weight: 200;
+    color: #012406;
+    text-transform: none;
+}
 .latest-results-header .euro-jackpot-color {
     color: #815422;
 }

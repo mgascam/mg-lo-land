@@ -1,11 +1,13 @@
 .header {
     margin-bottom: 21px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #d9deda;
 }
 
 .header .title {
     font-size: 21px;
     line-height: 24px;
-    font-family: FF Daxline Pro;
+    font-family: Roboto;
     font-weight: 900;
     color: #012406;
     text-transform: uppercase;

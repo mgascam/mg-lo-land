@@ -5,6 +5,7 @@
     padding: 0;
     margin-bottom: 0;
     display: inline-block;
+    margin-bottom: 28px;
 }
 .winning-numbers .item {
     display: inline-block;
